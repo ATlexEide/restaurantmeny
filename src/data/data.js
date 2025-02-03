@@ -70,4 +70,4 @@ const meny = [
     kategori: "Hovedrett",
   },
 ];
-export default Meny;
+export default MenuData;
