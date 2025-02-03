@@ -8,7 +8,7 @@ function Menu({ menu }) {
           <Dish
             key={dish.id}
             title={dish.tittel}
-            price={dish.price}
+            price={dish.pris}
             ingredients={dish.ingredienser}
             category={dish.kategori}
           />
