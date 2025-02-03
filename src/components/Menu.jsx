@@ -3,6 +3,7 @@ function Menu({ menu }) {
   // Listekomponent (Menu): Denne komponenten mottar matrettene som props og viser dem i en liste.
   return (
     <>
+      <h1>Meny:</h1>
       <ul>
         {menu.map((dish) => (
           <Dish
