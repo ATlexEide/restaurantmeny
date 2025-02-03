@@ -3,6 +3,8 @@
   flex-direction: column;
   padding: 1em;
   background-color: rgb(27, 27, 27);
+  border-radius: 10px;
+  border: solid 2px red;
 }
 #price {
   font-size: 70%;
