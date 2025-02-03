@@ -5,6 +5,7 @@
   background-color: rgb(27, 27, 27);
   border-radius: 10px;
   border: solid 2px red;
+  box-shadow: #1a1a1a 6px 5px 10px 0px;
 }
 #price {
   font-size: 70%;
