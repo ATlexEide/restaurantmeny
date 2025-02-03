@@ -1,14 +1,14 @@
 import "../styles/Dish.css";
 function Dish({ title, price, ingredients, category }) {
   return (
-    <>
-      <h2>
+    <section id="card">
+      <h2 id="title">
         {title}
-        <span>{price}</span>
+        <span id="price">{price}</span>
       </h2>
-      <p>{ingredients}</p>
-      <p>{category}</p>
-    </>
+      <p id="ingredients">{ingredients}</p>
+      <p id="ingredients">{category}</p>
+    </section>
   );
 }
 export default Dish;
